@@ -7,7 +7,8 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         #*find pairs
         if n in pair:
             return [pair[n], i]
-        else:#*Add to dict
+        else:
+        #*Add to dictionary
             pair[target - n] = i
             i += 1
 
