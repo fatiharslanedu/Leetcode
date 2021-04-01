@@ -1,4 +1,4 @@
 # Leetcode Problems Solving
-Problem List\n
-1: Two Sum
+## Problem List
+> 1: Two Sum
 
