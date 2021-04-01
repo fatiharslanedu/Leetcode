@@ -1,4 +1,4 @@
 # Leetcode Problems Solving
-Problem List\n
+Problem List
 1: Two Sum
 
