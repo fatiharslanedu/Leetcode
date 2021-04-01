@@ -1,2 +1,4 @@
-# Leetcode
-Some leetcode problems
+# Leetcode Problems Solving
+Problem List
+1: Two Sum
+
