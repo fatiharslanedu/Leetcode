@@ -6,5 +6,6 @@
     <li>1480. Running Sum of 1d Array</li>
     <li>1108. Defanging an IP Address</li>
     <li>1470. Shuffle the Array</li>
+    <li>1512. Number of Good Pairs</li>
 </ul>
 
