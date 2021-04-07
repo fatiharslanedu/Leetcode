@@ -8,5 +8,7 @@
     <li>1470. Shuffle the Array</li>
     <li>1512. Number of Good Pairs</li>
     <li>771. Jewels and Stones</li>
+    <li>1603. Design Parking System</li>
+    <li>1365. How Many Numbers Are Smaller Than the Current Number</li>
 </ul>
 
