@@ -1,0 +1,120 @@
+
+
+07-04-2021 18:04:27
+-------------------------------------------------
+PID: 75921, Depth: 3
+
+PID: 75950 | PPID: 75921
+PID: 75921, Depth: 3
+
+PID: 75951 | PPID: 75921
+PID: 75921, Depth: 3
+
+PID: 75952 | PPID: 75921
+PID: 75956 | PPID: 75951
+PID: 75953 | PPID: 75950
+PID: 75962 | PPID: 75953
+PID: 75955 | PPID: 75950
+execfile(75921)─┬─execfile(75950)─┬─execfile(75953)───execfile(75962)───sh(75979)───pstree(75981)
+                │                 ├─execfile(75955)───sh(75978)───pstree(75982)
+                │                 └─sh(75976)───pstree(75980)
+                ├─execfile(75951)───execfile(75956)
+                ├─execfile(75952)
+                └─sh(75977)
+execfile(75921)─┬─execfile(75950)─┬─execfile(75953)───execfile(75962)
+                │                 ├─execfile(75955)───sh(75978)───pstree(75982)
+                │                 └─sh(75976)───pstree(75980)
+                ├─execfile(75951)───execfile(75956)
+                ├─execfile(75952)
+                └─sh(75977)
+execfile(75921)─┬─execfile(75950)─┬─execfile(75953)───execfile(75962)
+                │                 ├─execfile(75955)───sh(75978)───pstree(75982)
+                │                 └─sh(75976)───pstree(75980)
+                ├─execfile(75951)───execfile(75956)
+                ├─execfile(75952)
+                └─sh(75977)
+execfile(75921)─┬─execfile(75950)
+                ├─execfile(75951)───execfile(75956)───sh(75983)───pstree(75984)
+                ├─execfile(75952)
+                └─sh(75977)
+execfile(75921)─┬─execfile(75950)
+                ├─execfile(75951)───execfile(75956)───sh(75983)───pstree(75984)
+                ├─execfile(75952)
+                └─sh(75977)
+execfile(75921)─┬─execfile(75950)
+                ├─execfile(75951)───execfile(75956)
+                ├─execfile(75952)
+                └─sh(75977)───pstree(75987)
+PID: 75921, Depth: 3
+
+execfile(75921)─┬─execfile(75950)
+                ├─execfile(75951)───execfile(75956)
+                ├─execfile(75952)───sh(75988)───pstree(75989)
+                └─sh(75977)───pstree(75987)
+
+
+07-04-2021 18:07:10
+-------------------------------------------------
+execfile(76336)───sh(76361)───pstree(76362)
+PID: 76336, Depth: 0
+
+
+
+07-04-2021 18:07:47
+-------------------------------------------------
+execfile(76433)───sh(76463)───pstree(76464)
+PID: 76433, Depth: 0
+
+
+
+07-04-2021 18:07:59
+-------------------------------------------------
+execfile(76494)───sh(76506)───pstree(76507)
+PID: 76494, Depth: 0
+
+
+
+07-04-2021 18:08:06
+-------------------------------------------------
+execfile(76523)───sh(76530)───pstree(76531)
+PID: 76523, Depth: 0
+
+
+
+07-04-2021 18:08:11
+-------------------------------------------------
+PID: 76552, Depth: 2
+
+PID: 76557 | PPID: 76552
+PID: 76552, Depth: 2
+
+PID: 76558 | PPID: 76552
+PID: 76560 | PPID: 76557
+execfile(76552)─┬─execfile(76557)─┬─execfile(76560)───sh(76569)───pstree(76572)
+                │                 └─sh(76570)───pstree(76573)
+                ├─execfile(76558)
+                └─sh(76568)───pstree(76571)
+execfile(76552)─┬─execfile(76557)─┬─execfile(76560)
+                │                 └─sh(76570)───pstree(76573)
+                ├─execfile(76558)
+                └─sh(76568)───pstree(76571)
+execfile(76552)─┬─execfile(76557)───execfile(76560)
+                ├─execfile(76558)───sh(76574)───pstree(76575)
+                └─sh(76568)───pstree(76571)
+execfile(76552)─┬─execfile(76557)
+                ├─execfile(76558)
+                └─sh(76568)───pstree(76571)
+PID: 76552, Depth: 2
+
+
+
+07-04-2021 18:08:25
+-------------------------------------------------
+PID: 76589, Depth: 1
+
+PID: 76611 | PPID: 76589
+execfile(76589)─┬─execfile(76611)───sh(76616)───pstree(76618)
+                └─sh(76617)───pstree(76619)
+PID: 76589, Depth: 1
+
+execfile(76589)
